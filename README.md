@@ -1,17 +1,11 @@
-## Instant Teleport (Recovered)
+## InstantTeleport
 
-This project was reconstructed from the installed plugin package at:
+Single repository URL for XIVLauncher/Dalamud:
 
-`C:\Users\Nick\AppData\Roaming\XIVLauncher\installedPlugins\InstantTeleport\1.0.0.0`
-
-Notes:
-
-- Source files were decompiled from `InstantTeleport.dll` using `ilspycmd`.
-- Decompiled output was adjusted to compile against current Dalamud API level 14.
-- `goat.png` and `InstantTeleport.json` were copied from the installed package.
+`https://raw.githubusercontent.com/ShiftyKiwi/InstantTeleport/main/pluginmaster.json`
 
 Build:
 
 ```powershell
-dotnet build .\Recovered\InstantTeleport\InstantTeleport.csproj -v minimal
+dotnet build .\InstantTeleport.csproj -c Release -v minimal
 ```
